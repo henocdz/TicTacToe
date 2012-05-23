@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Un juego llamado "Gato" - Por RND</title>
+		<meta charset="utf-8"/>
+
+		<link href='http://fonts.googleapis.com/css?family=Bowlby+One' rel='stylesheet' type='text/css' />
+		<link rel="stylesheet" type="text/css" href="gastyle.css" />
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+		<script src="http://vp1.quodgraphic.com:8888/socket.io/socket.io.js"></script>
+		<script type="text/javascript" src="gascript.js"></script>
+	</head>
+	<body>
+		
+		<h1>#Gato - Por RND</h1>
+
+		<section id="statusBar">
+			<span id="playername"></span>
+			<span id="status">Estado: Conectado</span>
+			<span id="leavebtn"><a href="" class="leavea"></a></span>
+		</section>
+
+		<section id="notifications">
+		</section>
+
+		<section class="welcome">
+			
+			<form id="setUsername">
+				<input name="name" id="name" type="text" placeholder="Escoge un nombre de usuario"/>
+			</form>
+
+			<section id="players">
+				<h2>Jugadores Disponibles</h2>
+				
+			</section>
+		</section>
+
+		<section id="setF">		
+				<h2>Selecciona tú figura</h2>		
+				<a href="" class="x">X</a>
+				<a href="" class="o">O</a>
+				<a href="" class="xo" style="display:block;text-decoration:underline;font-size:1.2em">No deseo jugar</a>
+		</section>
+
+		<section id="stage">
+
+			<article id="g00" class="square"></article>
+			<article id="g01" class="square"></article>			
+			<article id="g02" class="square"></article>
+			<article id="g10" class="square"></article>
+			<article id="g11" class="square"></article>
+			<article id="g12" class="square"></article>
+			<article id="g20" class="square"></article>
+			<article id="g21" class="square"></article>
+			<article id="g22" class="square"></article>
+
+		</section>
+
+		<section id="infobox">
+			<p>Esperando Oponente</p>
+		</section>
+
+		<section id="gops">
+			<a href="" class="again">Volver a jugar</a>
+			<a href="" class="leave">Cerrar Partida</a>
+		</section>
+
+		<section id="by" style="text-align:center">
+			<a href="http://youtube.com/dxvtuts" target="_blank"><img src="img/dxv.png" style="border:0;width:50px;vertical-align:middle"/></a>
+			<span style="font-size:4em;margin: 0 20px;vertical-align:middle"></span>
+			<a href="http://youtube.com/roofdierdz" target="_blank"><img src="img/rfdz.png" style="border:0;width:50px;vertical-align:middle"/></a>
+		</section>
+
+	</body>
+</html>

@@ -1,0 +1,305 @@
+info it worked if it ends with ok
+verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+verbose cli   'install',
+verbose cli   'express' ]
+info using npm@1.1.12
+info using node@v0.6.14
+verbose C:\Program Files (x86)\nodejs\\node.exe node symlink
+verbose config file C:\Users\Usuario\.npmrc
+verbose config file C:\Program Files (x86)\nodejs\etc\npmrc
+verbose config file C:\Program Files (x86)\nodejs\node_modules\npm\npmrc
+verbose mkdir done: C:\Users\Usuario\AppData\Roaming\npm 755
+verbose mkdir done: C:\wamp\www\rnd\gato 755
+verbose caching C:\wamp\www\rnd\gato\node_modules\socket.io\package.json
+verbose cache add [ 'express', null ]
+silly cache add: name, spec, args [ undefined, 'express', [ 'express', null ] ]
+verbose parsed url { pathname: 'express', path: 'express', href: 'express' }
+verbose addNamed [ 'express', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'express', '', false ]
+verbose raw, before any munging express
+verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+verbose url resolved https://registry.npmjs.org/express
+verbose etag "8TD9VJDU5S6ZQ545KE4QT4X5E"
+http GET https://registry.npmjs.org/express
+http 304 https://registry.npmjs.org/express
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"8TD9VJDU5S6ZQ545KE4QT4X5E"',
+silly get cb     date: 'Thu, 05 Apr 2012 21:52:45 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag express from cache
+verbose mkdir done: C:\Users\Usuario\AppData\Roaming\npm-cache\express 755
+silly name, range, hasData 2 [ 'express', '', true ]
+silly versions [ 'express',
+silly versions   [ '0.14.0',
+silly versions     '0.14.1',
+silly versions     '1.0.0beta',
+silly versions     '1.0.0beta2',
+silly versions     '1.0.0rc',
+silly versions     '1.0.0rc2',
+silly versions     '1.0.0rc3',
+silly versions     '1.0.0rc4',
+silly versions     '1.0.0',
+silly versions     '1.0.1',
+silly versions     '1.0.2',
+silly versions     '1.0.3',
+silly versions     '1.0.4',
+silly versions     '1.0.5',
+silly versions     '1.0.6',
+silly versions     '1.0.7',
+silly versions     '2.5.0',
+silly versions     '2.5.1',
+silly versions     '2.5.2',
+silly versions     '2.5.3',
+silly versions     '2.5.4',
+silly versions     '2.5.5',
+silly versions     '2.5.6',
+silly versions     '2.5.7',
+silly versions     '2.5.8',
+silly versions     '2.5.9' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.24-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '62d111ccaccf425182e1f30e541f84b551a72f2c',
+verbose bin dist     tarball: 'http://registry.npmjs.org/express/-/express-2.5.9.tgz' } ]
+verbose caching C:\Users\Usuario\AppData\Roaming\npm-cache\express\2.5.9\package\package.json
+verbose loadDefaults express@2.5.9
+silly resolved [ { name: 'express',
+silly resolved     description: 'Sinatra inspired web development framework',
+silly resolved     version: '2.5.9',
+silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly resolved     contributors: 
+silly resolved      [ { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly resolved        { name: 'Aaron Heckmann',
+silly resolved          email: 'aaron.heckmann+github@gmail.com' },
+silly resolved        { name: 'Ciaran Jessup', email: 'ciaranj@gmail.com' },
+silly resolved        { name: 'Guillermo Rauch', email: 'rauchg@gmail.com' } ],
+silly resolved     dependencies: { connect: '1.x', mime: '1.2.4', qs: '0.4.x', mkdirp: '0.3.0' },
+silly resolved     devDependencies: 
+silly resolved      { 'connect-form': '0.2.1',
+silly resolved        ejs: '0.4.2',
+silly resolved        expresso: '0.9.2',
+silly resolved        hamljs: '0.6.x',
+silly resolved        jade: '0.16.2',
+silly resolved        stylus: '0.13.0',
+silly resolved        should: '0.3.2',
+silly resolved        'express-messages': '0.0.2',
+silly resolved        'node-markdown': '>= 0.0.1',
+silly resolved        'connect-redis': '>= 0.0.1' },
+silly resolved     keywords: [ 'framework', 'sinatra', 'web', 'rest', 'restful' ],
+silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/express.git' },
+silly resolved     main: 'index',
+silly resolved     bin: { express: './bin/express' },
+silly resolved     scripts: { test: 'make test', prepublish: 'npm prune' },
+silly resolved     engines: { node: '>= 0.4.1 < 0.7.0' },
+silly resolved     _id: 'express@2.5.9',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.12',
+silly resolved     _nodeVersion: 'v0.6.14',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'express' } ]
+info into C:\wamp\www\rnd\gato express@2.5.9
+info installOne express@2.5.9
+verbose from cache C:\Users\Usuario\AppData\Roaming\npm-cache\express\2.5.9\package\package.json
+info unbuild C:\wamp\www\rnd\gato\node_modules\express
+verbose mkdir (expected) error ENOENT, stat 'C:\wamp\www\rnd\gato\node_modules\express'
+verbose mkdir done: C:\wamp\www\rnd\gato\node_modules\express 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\wamp\www\rnd\gato\node_modules\express
+silly gunzTarPerm modes [ '755', '644' ]
+silly modified mode [ '.npmignore', 438, 420 ]
+silly modified mode [ 'bin/', 438, 493 ]
+silly modified mode [ 'bin/express', 438, 420 ]
+silly modified mode [ 'History.md', 438, 420 ]
+silly modified mode [ 'index.js', 438, 420 ]
+silly modified mode [ 'lib/', 438, 493 ]
+silly modified mode [ 'lib/express.js', 438, 420 ]
+silly modified mode [ 'lib/http.js', 438, 420 ]
+silly modified mode [ 'lib/https.js', 438, 420 ]
+silly modified mode [ 'lib/request.js', 438, 420 ]
+silly modified mode [ 'lib/response.js', 438, 420 ]
+silly modified mode [ 'lib/router/', 438, 493 ]
+silly modified mode [ 'lib/router/collection.js', 438, 420 ]
+silly modified mode [ 'lib/router/index.js', 438, 420 ]
+silly modified mode [ 'lib/router/methods.js', 438, 420 ]
+silly modified mode [ 'lib/router/route.js', 438, 420 ]
+silly modified mode [ 'lib/utils.js', 438, 420 ]
+silly modified mode [ 'lib/view/', 438, 493 ]
+silly modified mode [ 'lib/view/partial.js', 438, 420 ]
+silly modified mode [ 'lib/view/view.js', 438, 420 ]
+silly modified mode [ 'lib/view.js', 438, 420 ]
+silly modified mode [ 'lib-cov/', 438, 493 ]
+silly modified mode [ 'lib-cov/application.js', 438, 420 ]
+silly modified mode [ 'lib-cov/express.js', 438, 420 ]
+silly modified mode [ 'lib-cov/middleware.js', 438, 420 ]
+silly modified mode [ 'lib-cov/request.js', 438, 420 ]
+silly modified mode [ 'lib-cov/response.js', 438, 420 ]
+silly modified mode [ 'lib-cov/router/', 438, 493 ]
+silly modified mode [ 'lib-cov/router/collection.js', 438, 420 ]
+silly modified mode [ 'lib-cov/router/index.js', 438, 420 ]
+silly modified mode [ 'lib-cov/router/methods.js', 438, 420 ]
+silly modified mode [ 'lib-cov/router/route.js', 438, 420 ]
+silly modified mode [ 'lib-cov/utils.js', 438, 420 ]
+silly modified mode [ 'lib-cov/view.js', 438, 420 ]
+silly modified mode [ 'LICENSE', 438, 420 ]
+silly modified mode [ 'Makefile', 438, 420 ]
+silly modified mode [ 'package.json', 438, 420 ]
+silly modified mode [ 'Readme.md', 438, 420 ]
+silly modified mode [ 'test.js', 438, 420 ]
+verbose gunzed C:\wamp\www\rnd\gato\node_modules\express
+verbose caching C:\wamp\www\rnd\gato\node_modules\express\package.json
+verbose loadDefaults express@2.5.9
+info preinstall express@2.5.9
+verbose from cache C:\wamp\www\rnd\gato\node_modules\express\package.json
+verbose readDependencies: using package.json deps
+verbose from cache C:\wamp\www\rnd\gato\node_modules\express\package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'mime@1.2.4', null ]
+silly cache add: name, spec, args [ undefined, 'mime@1.2.4', [ 'mime@1.2.4', null ] ]
+verbose parsed url { pathname: 'mime@1.2.4',
+verbose parsed url   path: 'mime@1.2.4',
+verbose parsed url   href: 'mime@1.2.4' }
+silly cache add: name, spec, args [ 'mime', '1.2.4', [ 'mime', '1.2.4' ] ]
+verbose parsed url { pathname: '1.2.4', path: '1.2.4', href: '1.2.4' }
+verbose addNamed [ 'mime', '1.2.4' ]
+verbose addNamed [ '1.2.4', '1.2.4' ]
+verbose cache add [ 'qs@0.4.x', null ]
+silly cache add: name, spec, args [ undefined, 'qs@0.4.x', [ 'qs@0.4.x', null ] ]
+verbose parsed url { pathname: 'qs@0.4.x', path: 'qs@0.4.x', href: 'qs@0.4.x' }
+silly cache add: name, spec, args [ 'qs', '0.4.x', [ 'qs', '0.4.x' ] ]
+verbose parsed url { pathname: '0.4.x', path: '0.4.x', href: '0.4.x' }
+verbose addNamed [ 'qs', '0.4.x' ]
+verbose addNamed [ null, '>=0.4.0- <0.5.0-' ]
+silly name, range, hasData [ 'qs', '>=0.4.0- <0.5.0-', false ]
+verbose cache add [ 'mkdirp@0.3.0', null ]
+silly cache add: name, spec, args [ undefined, 'mkdirp@0.3.0', [ 'mkdirp@0.3.0', null ] ]
+verbose parsed url { pathname: 'mkdirp@0.3.0',
+verbose parsed url   path: 'mkdirp@0.3.0',
+verbose parsed url   href: 'mkdirp@0.3.0' }
+silly cache add: name, spec, args [ 'mkdirp', '0.3.0', [ 'mkdirp', '0.3.0' ] ]
+verbose parsed url { pathname: '0.3.0', path: '0.3.0', href: '0.3.0' }
+verbose addNamed [ 'mkdirp', '0.3.0' ]
+verbose addNamed [ '0.3.0', '0.3.0' ]
+verbose cache add [ 'connect@1.x', null ]
+silly cache add: name, spec, args [ undefined, 'connect@1.x', [ 'connect@1.x', null ] ]
+verbose parsed url { pathname: 'connect@1.x',
+verbose parsed url   path: 'connect@1.x',
+verbose parsed url   href: 'connect@1.x' }
+silly cache add: name, spec, args [ 'connect', '1.x', [ 'connect', '1.x' ] ]
+verbose parsed url { pathname: '1.x', path: '1.x', href: '1.x' }
+verbose addNamed [ 'connect', '1.x' ]
+verbose addNamed [ null, '>=1.0.0- <2.0.0-' ]
+silly name, range, hasData [ 'connect', '>=1.0.0- <2.0.0-', false ]
+verbose raw, before any munging mime/1.2.4
+verbose url resolving [ 'https://registry.npmjs.org/', './mime/1.2.4' ]
+verbose url resolved https://registry.npmjs.org/mime/1.2.4
+http GET https://registry.npmjs.org/mime/1.2.4
+verbose raw, before any munging qs
+verbose url resolving [ 'https://registry.npmjs.org/', './qs' ]
+verbose url resolved https://registry.npmjs.org/qs
+http GET https://registry.npmjs.org/qs
+verbose raw, before any munging mkdirp/0.3.0
+verbose url resolving [ 'https://registry.npmjs.org/', './mkdirp/0.3.0' ]
+verbose url resolved https://registry.npmjs.org/mkdirp/0.3.0
+http GET https://registry.npmjs.org/mkdirp/0.3.0
+verbose raw, before any munging connect
+verbose url resolving [ 'https://registry.npmjs.org/', './connect' ]
+verbose url resolved https://registry.npmjs.org/connect
+http GET https://registry.npmjs.org/connect
+http 200 https://registry.npmjs.org/mime/1.2.4
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"CS42VEQDOA4IJ4WK5OKV8B6M9"',
+silly get cb     date: 'Thu, 05 Apr 2012 21:52:47 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '1010' } ]
+verbose mkdir (expected) error ENOENT, stat 'C:\Users\Usuario\AppData\Roaming\npm-cache\mime'
+verbose mkdir (expected) error ENOENT, stat 'C:\Users\Usuario\AppData\Roaming\npm-cache\mime\1.2.4'
+verbose mkdir done: C:\Users\Usuario\AppData\Roaming\npm-cache\mime\1.2.4 755
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.24-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '11b5fdaf29c2509255176b80ad520294f5de92b7',
+verbose bin dist     tarball: 'http://registry.npmjs.org/mime/-/mime-1.2.4.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/mime/-/mime-1.2.4.tgz',
+verbose addRemoteTarball   '11b5fdaf29c2509255176b80ad520294f5de92b7' ]
+verbose mkdir (expected) error ENOENT, stat 'C:\Users\Usuario\AppData\Local\Temp\npm-1333662766794'
+verbose mkdir (expected) error ENOENT, stat 'C:\Users\Usuario\AppData\Local\Temp\npm-1333662766794\1333662766794-0.11428549839183688'
+verbose mkdir done: C:\Users\Usuario\AppData\Local\Temp\npm-1333662766794\1333662766794-0.11428549839183688 755
+verbose fetch to C:\Users\Usuario\AppData\Local\Temp\npm-1333662766794\1333662766794-0.11428549839183688\tmp.tgz
+verbose mkdir done: C:\Users\Usuario\AppData\Local\Temp\npm-1333662766794\1333662766794-0.11428549839183688 755
+http GET https://registry.npmjs.org/mime/-/mime-1.2.4.tgz
+http 200 https://registry.npmjs.org/mime/-/mime-1.2.4.tgz
+silly updated sha bytes 17038
+info shasum 11b5fdaf29c2509255176b80ad520294f5de92b7
+info shasum C:\Users\Usuario\AppData\Local\Temp\npm-1333662766794\1333662766794-0.11428549839183688\tmp.tgz
+verbose mkdir (expected) error ENOENT, stat 'C:\Users\Usuario\AppData\Local\Temp\npm-1333662766794\1333662766794-0.11428549839183688\package'
+verbose mkdir done: C:\Users\Usuario\AppData\Local\Temp\npm-1333662766794\1333662766794-0.11428549839183688\package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\Usuario\AppData\Local\Temp\npm-1333662766794\1333662766794-0.11428549839183688\package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed C:\Users\Usuario\AppData\Local\Temp\npm-1333662766794\1333662766794-0.11428549839183688\package
+verbose caching C:\Users\Usuario\AppData\Local\Temp\npm-1333662766794\1333662766794-0.11428549839183688\package\package.json
+verbose loadDefaults mime@1.2.4
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache C:\Users\Usuario\AppData\Local\Temp\npm-1333662766794\1333662766794-0.11428549839183688\package\package.json
+verbose pack C:\Users\Usuario\AppData\Local\Temp\npm-1333662766794\1333662766794-0.11428549839183688\package
+verbose pack C:\Users\Usuario\AppData\Local\Temp\npm-1333662766794\1333662766794-0.11428549839183688\package C:\Users\Usuario\AppData\Roaming\npm-cache\mime\1.2.4\package.tgz
+silly makeList C:\Users\Usuario\AppData\Local\Temp\npm-1333662766794\1333662766794-0.11428549839183688\package
+silly dir, dirLen [ 'C:\\Users\\Usuario\\AppData\\Local\\Temp\\npm-1333662766794\\1333662766794-0.11428549839183688\\package',
+silly dir, dirLen   96 ]
+verbose tarball C:\Users\Usuario\AppData\Roaming\npm-cache\mime\1.2.4\package.tgz
+verbose parent C:\Users\Usuario\AppData\Local\Temp\npm-1333662766794\1333662766794-0.11428549839183688\package
+verbose mkdir (expected) error ENOENT, stat 'C:\Users\Usuario\AppData\Roaming\npm-cache\mime\1.2.4\package'
+verbose mkdir done: C:\Users\Usuario\AppData\Roaming\npm-cache\mime\1.2.4\package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\Usuario\AppData\Roaming\npm-cache\mime\1.2.4\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly modified mode [ 'LICENSE', 438, 420 ]
+silly modified mode [ 'mime.js', 438, 420 ]
+silly modified mode [ 'package.json', 438, 420 ]
+silly modified mode [ 'README.md', 438, 420 ]
+silly modified mode [ 'test.js', 438, 420 ]
+silly modified mode [ 'types/', 438, 493 ]
+silly modified mode [ 'types/mime.types', 438, 420 ]
+silly modified mode [ 'types/node.types', 438, 420 ]
+verbose gunzed C:\Users\Usuario\AppData\Roaming\npm-cache\mime\1.2.4\package
+verbose caching C:\Users\Usuario\AppData\Roaming\npm-cache\mime\1.2.4\package\package.json
+verbose loadDefaults mime@1.2.4
+silly updated sha bytes 17057
+info shasum 560bc75317f4e30579c7a626c6f4f04861bac4ac
+info shasum C:\Users\Usuario\AppData\Roaming\npm-cache\mime\1.2.4\package.tgz
+verbose from cache C:\Users\Usuario\AppData\Roaming\npm-cache\mime\1.2.4\package\package.json
+verbose chmod C:\Users\Usuario\AppData\Roaming\npm-cache\mime\1.2.4\package.tgz 644
+silly skipping chown for windows C:\Users\Usuario\AppData\Roaming\npm-cache\mime\1.2.4\package.tgz
+verbose about to build C:\wamp\www\rnd\gato\node_modules\express
+info unbuild C:\wamp\www\rnd\gato\node_modules\express
+verbose from cache C:\wamp\www\rnd\gato\node_modules\express\package.json
+info preuninstall express@2.5.9
+info uninstall express@2.5.9
+verbose unbuild express@2.5.9 [ true,
+verbose unbuild express@2.5.9   'C:\\wamp\\www\\rnd\\gato\\node_modules',
+verbose unbuild express@2.5.9   'C:\\wamp\\www\\rnd\\gato\\node_modules' ]
+verbose binRoot [ 'C:\\wamp\\www\\rnd\\gato\\node_modules\\.bin',
+verbose binRoot   { express: './bin/express' } ]
+info postuninstall express@2.5.9
+ERR! Error: socket hang up
+ERR!     at createHangUpError (http.js:1107:15)
+ERR!     at CleartextStream.<anonymous> (http.js:1210:27)
+ERR!     at CleartextStream.emit (events.js:88:20)
+ERR!     at Array.0 (tls.js:792:22)
+ERR!     at EventEmitter._tickCallback (node.js:192:40)
+ERR! You may report this log at:
+ERR!     <http://github.com/isaacs/npm/issues>
+ERR! or email it to:
+ERR!     <npm-@googlegroups.com>
+ERR! 
+ERR! System Windows_NT 6.1.7601
+ERR! command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "express"
+ERR! cwd C:\wamp\www\rnd\gato
+ERR! node -v v0.6.14
+ERR! npm -v 1.1.12
+ERR! code ECONNRESET
+ERR! message socket hang up
+ERR! errno {}
+verbose exit [ 1, true ]
